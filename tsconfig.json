@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node 14",
+   
+    "compilerOptions": {
+      "lib": ["esnext"],
+      "module": "commonjs",
+      "target": "esnext",
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "noEmit": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist"
+    }  
+    
+  }
+   
